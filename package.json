@@ -2,9 +2,19 @@
   "name": "rq-bosstimer",
   "version": "1.0.0",
   "description": "no comments",
-  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "2.27.7",
+    "autoprefixer": "10.4.0",
+    "gulp": "4.0.2",
+    "del": "^6.0.0",
+    "gulp-postcss": "9.0.1",
+    "postcss": "8.3.11",
+    "gulp-rename": "^2.0.0",
+    "postcss-csso": "^6.0.0",
+    "gulp-htmlmin": "^5.0.1"
+  },
   "scripts": {
-    "test": "test"
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
@@ -12,8 +22,23 @@
   },
   "author": "Fitjet",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/Fitjet/RQ-BossTimer/issues"
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all",
+    "not < 0.25%"
+  ],
+  "editorconfig-cli": [
+    "*.json",
+    "*.js",
+    "src/*.html",
+    "src/js/**/*.js",
+    "src/img/**/*.svg",
+    "src/css/**/*.css"
+  ],
+  "engines": {
+    "node": "^16"
   },
-  "homepage": "https://github.com/Fitjet/RQ-BossTimer#readme"
+  "type": "module"
 }
