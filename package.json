@@ -1,0 +1,19 @@
+{
+  "name": "rq-bosstimer",
+  "version": "1.0.0",
+  "description": "no comments",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fitjet/RQ-BossTimer.git"
+  },
+  "author": "Fitjet",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Fitjet/RQ-BossTimer/issues"
+  },
+  "homepage": "https://github.com/Fitjet/RQ-BossTimer#readme"
+}
